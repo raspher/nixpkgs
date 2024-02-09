@@ -37312,8 +37312,6 @@ with pkgs;
 
   abbaye-des-morts = callPackage ../games/abbaye-des-morts { };
 
-  abuse = callPackage ../games/abuse { };
-
   adom = callPackage ../games/adom { };
 
   airshipper = callPackage ../games/airshipper { };
