@@ -53,7 +53,7 @@ GEM
     mustermann (3.0.3)
       ruby2_keywords (~> 0.0.1)
     pg (1.5.9)
-    rack (3.1.14)
+    rack (3.1.23)
     rack-protection (4.1.1)
       base64 (>= 0.1.0)
       logger (>= 1.6.0)
