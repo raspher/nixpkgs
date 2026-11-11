@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (8.0.2)
+    activesupport (8.0.5.2)
       base64
       benchmark (>= 0.3)
       bigdecimal
@@ -14,9 +14,9 @@ GEM
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
       uri (>= 0.13.1)
-    base64 (0.2.0)
-    benchmark (0.4.0)
-    bigdecimal (3.1.9)
+    base64 (0.3.0)
+    benchmark (0.5.0)
+    bigdecimal (4.1.3)
     cli-ui (1.5.1)
     color (1.8)
     coltrane (4.1.2)
@@ -25,9 +25,9 @@ GEM
       dry-monads (~> 0.4)
       gambiarra (= 0.0.6)
       paint (~> 2.0)
-    concurrent-ruby (1.3.5)
-    connection_pool (2.5.0)
-    drb (2.2.1)
+    concurrent-ruby (1.3.8)
+    connection_pool (3.0.2)
+    drb (2.2.3)
     dry-core (0.9.1)
       concurrent-ruby (~> 1.0)
       zeitwerk (~> 2.6)
@@ -39,16 +39,19 @@ GEM
       activesupport (> 5.2)
       cli-ui (~> 1.1)
       thor (~> 1.1.0)
-    i18n (1.14.7)
+    i18n (1.15.2)
       concurrent-ruby (~> 1.0)
-    logger (1.6.6)
-    minitest (5.25.5)
+    logger (1.7.0)
+    minitest (6.1.0)
+      drb (~> 2.0)
+      prism (>= 1.5, < 3)
     paint (2.3.0)
+    prism (2.1.0)
     securerandom (0.4.1)
     thor (1.1.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    uri (1.0.3)
+    uri (1.1.2)
     zeitwerk (2.7.2)
 
 PLATFORMS
