@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.5.0)
-      public_suffix (~> 2.0, >= 2.0.2)
+    addressable (2.9.1)
+      public_suffix (>= 2.0.2, < 8.0)
     atlassian-stash (0.7.0)
       commander (~> 4.1.2)
       git (>= 1.2.5)
@@ -15,7 +15,7 @@ GEM
     json (2.0.2)
     launchy (2.4.3)
       addressable (~> 2.3)
-    public_suffix (2.0.5)
+    public_suffix (7.0.5)
 
 PLATFORMS
   ruby
